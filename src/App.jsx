@@ -81,8 +81,8 @@ useEffect(()=>{
 },[todos])
        
   return (
-   <>
-   
+   <div className="bg-primary bg-opacity-10 min-vh-100" >
+     
       <Header title="My TodoList" searchBar={false}/>
       <Routes>
         <Route
@@ -97,7 +97,7 @@ useEffect(()=>{
         <Route path="/about" element={<About/>} />
       </Routes>
       <Footer/>
-   </>
+   </div>
   )
 }
 

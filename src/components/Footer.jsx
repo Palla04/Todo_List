@@ -11,7 +11,7 @@ const Footer = () => {
   //   border: "2px solid green"
   // }
   return (
-    <div className="bg-dark text-light py-3" >         
+    <div className=" text-dark bg-primary bg-opacity-25 py-3 rounded" >         
   {/*style={footerStyle}  */}
       <p className="text-center">
          Copyright &copy; MyTodosList.com
